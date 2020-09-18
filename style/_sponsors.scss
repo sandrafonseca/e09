@@ -1,0 +1,15 @@
+.sponsors{
+    height: 600px;
+
+    .tiposponsor{
+        
+        img{
+            display: inline-block;
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            margin: 10px 20px;
+            border: 2px solid $primary-color;
+        }
+    }
+}

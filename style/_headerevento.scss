@@ -1,0 +1,39 @@
+header{
+    img{
+        width: 100%;
+    }
+    nav{
+        .menu{
+            background-color: $secondary-color;
+            height: 35px;
+            margin-top: -4px;
+            li{
+                display: inline-block;
+                list-style: none;
+                width: 300px;
+                padding-top: 7px;
+                padding-bottom: 7px;      
+                font-weight: bold;  
+                text-align: center;
+                a{
+                    color: $bg;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+li:hover{
+    background-color: $primary-gradient;
+    a:hover{
+    color: $secondary-gradient;
+    }
+}
+.seleccionado{
+    background-color: $bg;
+}
+.seleccionado:hover{
+    background-color: $bg;
+}
+
+

@@ -1,0 +1,185 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: white;
+}
+
+p {
+  color: #242424;
+}
+
+header img {
+  width: 100%;
+}
+
+header nav .menu {
+  background-color: #702a61;
+  height: 35px;
+  margin-top: -4px;
+}
+
+header nav .menu li {
+  display: inline-block;
+  list-style: none;
+  width: 300px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-weight: bold;
+  text-align: center;
+}
+
+header nav .menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #1a5c5c;
+}
+
+li:hover a:hover {
+  color: #ffc116;
+}
+
+.seleccionado {
+  background-color: white;
+}
+
+.seleccionado:hover {
+  background-color: white;
+}
+
+/* GENERALES*/
+.descripcion {
+  float: left;
+  width: 60%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.descripcion h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #702a61;
+}
+
+.descripcion .descripcion-seccion {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.formulario {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+  padding-top: 22px;
+}
+
+.formulario h2 {
+  margin-bottom: 20px;
+  color: #702a61;
+}
+
+.formulario .casillas {
+  width: 238px;
+  height: 30px;
+  border: 1px solid #702a61;
+}
+
+.boton {
+  margin: 10px auto;
+  width: 200px;
+  padding: 10px;
+  color: #702a61;
+  background: #ffc116;
+  border-radius: 5px;
+  border: 2px solid #702a61;
+}
+
+.boton:hover {
+  border: 2px solid #1a5c5c;
+  color: white;
+  background: linear-gradient(109.6deg, #1a5c5c 11.2%, #58bdbd 91.1%);
+  font-weight: bold;
+}
+
+footer {
+  background-color: #702a61;
+  height: 40px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contenedorOradores {
+  height: 750px;
+}
+
+.oradores {
+  height: 150px;
+}
+
+.oradores .imgOrador {
+  float: left;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.oradores .imgOrador img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.oradores .descripcion-orador {
+  display: inline-block;
+  width: 55%;
+  height: 40px;
+}
+
+.oradores .descripcion-orador h4 {
+  color: #702a61;
+  margin-top: 12px;
+}
+
+.oradores .descripcion-orador .resumen {
+  font-size: 15px;
+  color: #242424;
+}
+
+.oradores .descripcion-orador a {
+  color: #ffc116;
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+.redes-sociales:hover a:hover {
+  color: #58bdbd;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.llegar {
+  height: 650px;
+}
+
+.sponsors {
+  height: 600px;
+}
+
+.sponsors .tiposponsor img {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  margin: 10px 20px;
+  border: 2px solid #242424;
+}
+/*# sourceMappingURL=styleevento.css.map */

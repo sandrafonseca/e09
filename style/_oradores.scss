@@ -1,0 +1,40 @@
+.contenedorOradores{
+    height: 750px;
+}
+.oradores{
+    height: 150px;
+    .imgOrador{
+        float: left;
+        width: 20%;
+        margin-right: 5%;
+        img{
+            width: 100%;
+            border-radius: 100%;
+        }
+    }
+    .descripcion-orador{
+        display: inline-block;
+        width: 55%;
+        height: 40px;
+        h4{
+            color: $secondary-color;
+            margin-top: 12px;
+        }
+        .resumen{
+            font-size: 15px;
+            color: $primary-color;
+        }   
+        a{
+            color: $secondary-gradient;
+            padding-left: 18px;
+            text-decoration: none
+        }
+        
+    }
+}
+.redes-sociales:hover{
+    a:hover{
+        color: $third-gradient;
+        transform: scale(1.2,1.2);
+    }
+}
